@@ -1,0 +1,17 @@
+{
+    "name": "redis_setup",
+    "version": "1.0.0",
+    "description": "A simple Redis setup with Docker",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+       "dev": "node src/index.js"
+    },
+    "author": "Your Name",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "ioredis": "^5.3.2",
+        "mongoose": "^7.3.4"
+    }
+}
